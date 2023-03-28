@@ -1,3 +1,0 @@
-/home/shy/Learn-Cpp-Compilation-and-Debugging/cmake-test/build/CMakeFiles/main.dir
-/home/shy/Learn-Cpp-Compilation-and-Debugging/cmake-test/build/CMakeFiles/edit_cache.dir
-/home/shy/Learn-Cpp-Compilation-and-Debugging/cmake-test/build/CMakeFiles/rebuild_cache.dir
