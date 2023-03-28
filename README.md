@@ -22,4 +22,10 @@
 
 - **在主分支开发**
     - 在主分支开发后不提交，然后利用`git branch -b compile-test`，这个时候更改都会转移到新分支上
-    
+
+#### 1.2.2 合并分支
+
+> 开发结束后测试稳定即可合并到main分支,适用于当前分支不落后于主分支的情况。
+
+- `git checkout main`: 切换到主分支
+- `git merge compile-test`: 将`compile-test`合并到主分支
