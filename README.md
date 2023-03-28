@@ -13,6 +13,8 @@
 
 ### 1.2 branch相关操作
 
+- `git log --graph --decorate --oneline`: 查看git的可视化时间线
+
 #### 1.2.1 创建新分支
 
 - **直接在新分支开发**
@@ -37,4 +39,10 @@
 
 #### 1.2.4 解决合并冲突
 
-> 假如你在一个新分支`compile-test`上，这个时候主分支`main`已经被别人修改了，那么这个时候就会出现问题。
+> 假如你在一个新分支`compile-test`上，这个时候主分支`main`已经被别人修改了，想将`compile-test`合并到`main`分支会出现冲突。
+
+在冲突的位置，会有提示：
+- `Accept Current`: 当前`main`分支，即`current`部分。表示保留当前`main`分支的修改而不保留`compile-test`分支的修改
+- `Accept Incoming`: 开发`compile-test`分支，即`incoming`部分。表示保留当前`compile-test`分支的修改而不保留`main`分支的修改
+- `Ignore`: 表示暂时忽略这一冲突，但是后续仍然需要解决这个冲突
+- `Accept Combination`： 将当前分支和被合并分支中的修改都保留下来。这样可以在文件中看到两个分支中的修改，并手动编辑文件来合并这些修改
