@@ -115,7 +115,7 @@ int main()
 
     if (ptr2 != nullptr)
     {
-        ptr1->print_decomposed_velocity();
+        ptr2->print_decomposed_velocity();
     }
 
     delete ptr1;
