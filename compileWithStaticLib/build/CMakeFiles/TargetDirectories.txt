@@ -1,3 +1,0 @@
-/home/shy/Learn-Cpp-Compilation-and-Debugging/compileWithStaticLib/build/CMakeFiles/main.dir
-/home/shy/Learn-Cpp-Compilation-and-Debugging/compileWithStaticLib/build/CMakeFiles/edit_cache.dir
-/home/shy/Learn-Cpp-Compilation-and-Debugging/compileWithStaticLib/build/CMakeFiles/rebuild_cache.dir
