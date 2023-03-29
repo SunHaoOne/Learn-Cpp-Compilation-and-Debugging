@@ -71,6 +71,10 @@ int main()
         {
             it = mp.erase(it);
         }
+        else
+        {
+            ++it;
+        }
     }
     return 0;
 }
