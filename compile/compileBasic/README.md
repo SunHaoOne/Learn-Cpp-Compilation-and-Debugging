@@ -1,4 +1,4 @@
 ## g++
 
-- `g++ -g main.cpp -o main`
+- `g++ main.cpp -o main`
 - `./main`
